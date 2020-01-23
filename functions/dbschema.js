@@ -23,7 +23,7 @@ let db = {
   comments: [
     {
       userHandle: "user",
-      shuttleId: "fjskfsjkfsfbdnadab",
+      shuttlesId: "fjskfsjkfsfbdnadab",
       body: "Nice meme mate",
       createAt: "2020-01-09T11:55:16.568Z"
     }
@@ -33,7 +33,7 @@ let db = {
       recipient: "user",
       sender: "john",
       read: "true | false",
-      shuttleId: "kdjsfgdksuufhgkdsufky",
+      shuttlesId: "kdjsfgdksuufhgkdsufky",
       type: "like | comment",
       createAt: "2019-03-15T10:59:52.798Z"
     }
@@ -49,16 +49,16 @@ const userDetails = {
     imageUrl: "image/dsfsdkfghskdfgs/dgfdhfgdh",
     bio: "Hello, my name is user, nice to meet you",
     website: "https://user.com",
-    location: "Lonodn, UK"
+    location: "London, UK"
   },
   likes: [
     {
       userHandle: "user",
-      screamId: "r4PJgBz20ZR6kthruoHd"
+      shuttleId: "r4PJgBz20ZR6kthruoHd"
     },
     {
       userHandle: "user",
-      screamId: "sj6Vd9ePlPvYSdClqxQh"
+      shuttleId: "sj6Vd9ePlPvYSdClqxQh"
     }
   ]
 };
